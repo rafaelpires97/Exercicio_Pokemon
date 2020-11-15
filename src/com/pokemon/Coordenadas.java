@@ -36,7 +36,7 @@ public class Coordenadas {
     }
 
 
-    // simple toString method
+    //simple toString method
     @Override
     public String toString() {
         return x +","+ y;
@@ -52,9 +52,9 @@ public class Coordenadas {
 
 
     //also override hashcode because when using a
-    // hashtable like I do here "visitedCords",
-    // this hashcode when the objects are equal it does return the same hashcode,
-    // so it is one more validation to compare objects
+    //hashtable like I do here "visitedCords",
+    //this hashcode when the objects are equal it does return the same hashcode,
+    //so it is one more validation to compare objects
     @Override
     public int hashCode() {
         int result = 17;
